@@ -1,14 +1,17 @@
 # DeepSORT_READY_in_Ubuntu24.04
 
-1. cloning recurse submodules
-   git clone --recurse-submodules https://github.com/ultralytics/yolov5.git
+Library packages
 
-2. install YOLOv5 & requirement
-   git clone https://github.com/ultralytics/yolov5.git
-   cd yolov5 
-   pip install -r requirements
+pip install opencv-python
+pip install torch torchvision torchaudio
+pip install deep_sort_realtime
+pip install scipy
+pip install numpy
+pip install pandas
+pip install requests
+pip install seaborn
 
-3. install python packages
-   pip insttall numpy opencv-python onnxruntime
-   pip install deep_sort_realtime
-   pip install deep_sort_realtime scipy
+python3 search.py
+
+sudo apt install htop
+htop 
